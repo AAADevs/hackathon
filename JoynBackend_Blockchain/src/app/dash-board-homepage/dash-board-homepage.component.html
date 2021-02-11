@@ -1,0 +1,51 @@
+<div class="mainDiv container-fluid">
+    <app-navbar></app-navbar>
+    <div class="row">
+        <div class="col-2 sideMenu">
+            <ul class="menuLinkList">
+                <li class="menuItem">
+                    <img src="../../assets/tachometer-alt-solid.svg" alt="" srcset="" width="30px" height="30px" 
+                    style="margin-top: -8px;">
+                    <a href="/dashboardHome" class="sideMenuLink">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-10 mainDashboardArea p-3">
+            <div class="row container-fluid overviewHolder" >
+                <div class="col-12 col-md-6 adminTotalToken">
+                    <h5>Admin total token balance  : {{adminAccountTokenBalance?.balance}}</h5>
+                </div>
+                <div class="col-12 col-md-6 totalUsers">
+                    <h5>Total no of users on Joyn: {{userData?.data?.length}}</h5>
+                </div>
+            </div>
+            <div class="row pl-3">
+                <div class="col-12">
+                    <h5 style="margin-left: 13px;margin-top: 40px;">User Details : </h5>
+                </div>
+            </div>
+            <div class="row container-fluid p-3 userListHolder" >
+               
+                <div class="col-12 userDetailsHolder" *ngFor="let user of userData.data">
+                    <div class="row mt-2">
+                        <div class="col-12 col-md-6">
+                            <span style="font-weight:500">Email : </span>{{user.email}}
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <span style="font-weight:500">Username : </span>{{user.username}}
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-12 col-md-6">
+                            <span style="font-weight:500">Passbase status : </span>{{user.passbase}}
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <span style="font-weight:500">User tokens : </span>{{user.token || 'No tokens assigned'}}
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

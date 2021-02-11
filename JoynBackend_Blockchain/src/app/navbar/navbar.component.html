@@ -1,0 +1,26 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand d-block d-md-none" href="/home">
+            <img src="../../assets/joyn_logo.png" alt="Failed to load logo" width="95px" height="45px">
+        </a>
+        
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand d-none d-md-block" href="/home">
+            <img src="../../assets/joyn_logo.png" alt="Failed to load logo" width="100px" height="45px">
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" aria-current="page" href="/dashboardHome">Dashboard</a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" aria-current="page" (click)="logout()">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <a (click)="logout()" class="logoutButton d-none d-md-block">Logout</a>
+    </div>
+</nav>

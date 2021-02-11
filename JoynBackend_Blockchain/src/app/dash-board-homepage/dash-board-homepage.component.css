@@ -1,0 +1,119 @@
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 0px 0px 0px !important;
+    overflow: hidden;
+}
+
+.sideMenu{
+    background-color: rgb(224, 224, 224);
+    height: 90vh;
+    padding-top: 30px;
+}
+
+.menuLinkList{
+    list-style: none;
+}
+
+.menuItem{
+    margin-left: -12px;
+}
+
+.sideMenuLink{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.sideMenuLink:hover{
+    color:rgb(82, 81, 81);
+}
+
+.mainDashboardArea{
+    background-color: whitesmoke;
+    height: 90vh;
+}
+
+.overviewHolder{
+    width: 101%;
+}
+
+.adminTotalToken{
+    background-color: rgb(201, 201, 201);
+    height: 10vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+}
+
+.totalUsers{
+    background-color: gainsboro;
+    height: 10vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.userListHolder{
+    height: 66vh;
+    width: 101%;
+    overflow-y: scroll;
+    padding-top: 0px!important;
+    padding-right: 20px!important;
+}
+
+.userDetailsHolder{
+    width: 100%;
+    height: 13vh;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(218, 218, 218);
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .sideMenu{
+        display: none;
+    }
+
+    .mainDashboardArea{
+        height: 92vh;
+    }
+
+    .overviewHolder{
+        width: 105%;
+    }
+
+    .adminTotalToken{
+        border-top-left-radius:15px;
+        border-bottom-left-radius:0px;
+        border-top-right-radius: 15px;
+    }
+
+    .totalUsers{
+        border-top-right-radius:0px;
+        border-bottom-right-radius:15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .userDetailsHolder{
+        height: 20vh;
+    }
+
+
+    .userDetailsHolder:nth-last-child(1){
+        margin-bottom: 60px;
+    }
+}

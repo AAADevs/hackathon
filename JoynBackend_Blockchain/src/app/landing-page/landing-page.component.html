@@ -1,0 +1,30 @@
+<div class="mainDiv container-fluid">
+    <div class="row">
+        <div class="col-0 col-md-7 logoHolderDiv">
+            <img src="../assets/joyn_logo.png" width="450px" height="210px" alt="Joyn Logo">
+        </div>
+        <div class="col-12 col-md-5 loginDivHolder">
+            <div class="loginDiv">
+                <div class="mb-4" style="text-align: center;margin-bottom: 1.6vw;">
+                    <span id="mainHead">ADMIN LOGIN</span>
+                  </div>
+                    <div *ngIf="showError" style="text-align: center;color:red" class="mb-2" role="alert">
+                      Invalid Credentials, Please Try Again
+                    </div>
+                    <div *ngIf="showLoginError" style="text-align: center;color:red;" class="mb-2" role="alert">
+                      All fields are mandatory
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="inputFieldStyle mb-2" id="exampleInputEmail1" placeholder="Username" [(ngModel)]="user.username" name="username">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="inputFieldStyle" id="exampleInputPassword1" placeholder="Password" [(ngModel)]="user.password" name="password">
+                      <p *ngIf="passwordError" style="color: red;">*Password should be atlease 5 characters!</p>
+                    </div>
+                    <div class="mt-4">
+                      <a class="loginBtn" (click)="submit()">SIGN IN</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

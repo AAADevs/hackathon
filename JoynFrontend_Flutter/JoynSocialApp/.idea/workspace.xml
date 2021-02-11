@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c88bdd87-64a5-47ba-8e27-4661eae2605a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/AuthServices/authservices.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/AuthServices/authservices.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/AddPost/post_feed_pic.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/AddPost/post_feed_pic.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/AddPost/post_jot.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/AddPost/post_jot.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/AddPost/video_player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/AddPost/video_player.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/profile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/widgets/feed_jot.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/widgets/feed_jot.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/widgets/post_items.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/JoynApp/widgets/post_items.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/splash.dart" beforeDir="false" afterPath="$PROJECT_DIR$/JoynSocialApp-main/Joyn-Social-App-main/lib/splash.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1n08c8kbrqiEZ5cI6Gdj16gDmOE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c88bdd87-64a5-47ba-8e27-4661eae2605a" name="Default Changelist" comment="" />
+      <created>1610515723665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610515723665</updated>
+    </task>
+    <servers />
+  </component>
+</project>

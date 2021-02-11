@@ -1,0 +1,76 @@
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(56,16,74,1) 95%);
+}
+
+.logoHolderDiv,.loginDivHolder{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginDiv{
+    height: 60vh;
+    width: 80%;
+    background-color: rgba(238, 238, 238,0.99);
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgb(133, 133, 133), 
+    -20px -20px 40px rgb(71, 4, 102);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input{
+    border:1px solid rgb(190, 190, 190);
+}
+
+.inputFieldStyle{
+    width: 25vw;
+    height: 7vh;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none!important;
+    
+}
+
+#mainHead{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.loginBtn{
+    background-color: rgb(71, 4, 102);
+    border:none;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none!important;
+    padding: 10px 50px 10px 50px;
+    transition: all 0.3s;
+}
+
+.loginBtn:hover{
+    background-color: rgb(115, 27, 156);
+    color:white!important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .logoHolderDiv{
+        display: none;
+    }
+
+    .loginDiv{
+        height: 55vh;
+        width: 95%;
+    }
+
+    .inputFieldStyle{
+        width: 80vw;        
+    }
+}
